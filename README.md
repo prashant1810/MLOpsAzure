@@ -1,10 +1,9 @@
-# MLOpsDemo
-ML Practice
+# MLOps
 
 1. Setup GitHub Repository
-   a. new environment
-   b. setup.py
-   c. requirements.txt
+   - new environment
+   - setup.py
+   - requirements.txt
 
 2. Src folder and build the package
 
