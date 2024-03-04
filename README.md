@@ -14,3 +14,5 @@
 - git status
 - git commit -m "Setup.py and requirements.txt"
 - git push -u origin main
+
+- Added elastic beans file in .ebextensions folder
