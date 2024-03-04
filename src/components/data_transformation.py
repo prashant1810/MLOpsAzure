@@ -24,7 +24,7 @@ class DataTransformation:
         This function performs data transformation for numerical and categorical variables
         """
         try:
-            numeric_columns = ['reading_score', 'writing_score']
+            numeric_columns = ['writing_score', 'reading_score']
             categorical_columns = ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
             
             num_pipeline = Pipeline(
