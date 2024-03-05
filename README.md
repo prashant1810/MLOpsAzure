@@ -35,6 +35,8 @@ Steps:
 2. Github Workflow
 3. IAM User AWS (prash1)
 4. Ec2 instance creation
+ - Create specific user EC2fullaccess, ContainerFullAccess
+ - Add security inbounds for Custom TCP and port 8080
 
 211125634833.dkr.ecr.us-east-1.amazonaws.com/studentperformace
 
