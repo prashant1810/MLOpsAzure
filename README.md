@@ -47,6 +47,6 @@ Docker setup in ec2
 - newgrp docker
 
 Go to GitHub Settings/Actions/Runner 
-- create for runner for linux
+- create for EC2 for runner for linux
 
 Goto Secrets/Actions
