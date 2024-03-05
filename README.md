@@ -16,13 +16,25 @@
 - git push -u origin main
 
 - Added elastic beans file in .ebextensions folder
+
+Docker Commands
 - docker build -t studentperformance
 - docker images
+- docker run -p 5000:5000 studentperformance
+- docker ps
+- docker stop
+- docker login
+- docker image rm -f studentperformance
+- docker build -t prash/studentperformance
+- docker tag studentperformance prash/studentperformance
+- docker push prash/studentperformance:latest
+- docker compose up
 
 Steps:
 1. Docker Build
 2. Github Workflow
 3. IAM User AWS (prash1)
+4. Ec2 instance creation
 
 211125634833.dkr.ecr.us-east-1.amazonaws.com/studentperformace
 
@@ -36,3 +48,5 @@ Docker setup in ec2
 
 Go to GitHub Settings/Actions/Runner 
 - create for runner for linux
+
+Goto Secrets/Actions
