@@ -1,4 +1,4 @@
-# MLOps
+# MLOpsAzure
 
 1. Setup GitHub Repository
    - new environment
