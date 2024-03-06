@@ -1,4 +1,4 @@
-# MLOpsAWS
+# MLOpsAzure
 
 1. Setup GitHub Repository
    - new environment
@@ -52,3 +52,10 @@ Go to GitHub Settings/Actions/Runner
 - create for EC2 for runner for linux
 
 Goto Secrets/Actions
+
+3. Git repository replications from repo1 to repo2
+ - git init
+ - git remote add r1remote **url-of-repo1**
+ - git fetch r1remote
+ - git merge r1remote/main --allow-unrelated-histories
+ - git remote rm r1remote
